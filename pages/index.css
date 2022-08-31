@@ -1,0 +1,83 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/font-Inter.css);
+/*бутстрап*/
+
+@import url(../pages/bootstrap.min.css);
+
+.header {
+    margin-top: 15px;
+}
+
+.header__button-link {
+    font-size: 11px;
+    font-family: "HelveticaNeue";
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.9;
+    color: #929aa2;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto 1px;
+    position: relative;
+    top: -.5px;
+    right: 1px;
+}
+
+.header__button-picture {
+    width: 14px;
+    height: 11px;
+    margin-bottom: 3px;
+
+}
+
+
+.header__links {
+    border: solid 1px rgb(255, 136, 136);
+    border-radius: 3px;
+    width: 52px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.header__links_lilac {
+    background-color: #4c65a5;
+    border: none;
+    contain: paint;
+    padding-top: 0.6px;
+}
+
+
+.header__button-picture-quantity {
+    width: 29px;
+    height: 20px;
+
+}
+
+.header__button-title {
+    position: relative;
+    z-index: -2;
+    margin: 0;
+    padding-left: 16px;
+    font-size: 11px;
+    font-family: "HelveticaNeue";
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.9;
+    color: #929aa2;
+    text-decoration: none;
+}
+
+.header__button-picture-quantity {
+     position: relative;
+    top: 0.1px;
+    right: 25px; 
+    width: 29px;
+    height: 20px;
+    z-index: -1;
+}
+
+.jkk{
+    width: 41px;
+    height: 20px;
+}
