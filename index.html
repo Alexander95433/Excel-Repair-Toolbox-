@@ -48,11 +48,11 @@
     <main>
         <section class="download">
             <div class="container">
-                <div class="row d-flex ">
-                    <div class="col-4 download__picture">
+                <div class="row d-flex  ">
+                    <div class="col-sm col-sm-3 download__logo-wrapper">
                         <img src="./image/excel_logo.png" alt="">
                     </div>
-                    <div class="col-sm p-0">
+                    <div class="col-sm p-0 download__title-wrapper">
                         <h1 class="download__title ">Excel Repair <span class="download__title_span ">Toolbox</span>
                         </h1>
                         <p class="download__subtitle">Microsoft Excel file repair tool for corrupt Excel files
@@ -62,27 +62,34 @@
                 </div>
             </div>
 
-            <div class="container download__options-block">
+            <div class="container download__tools-block">
                 <div class="row">
-                    <figure class="col-sm">
-                        <img src="./image/download_options.png" alt="">
-                        <figcaption>How it works?</figcaption>
+                    <figure class="col-sm  col-lg-2  d-flex align-items-center flex-column p-0">
+                        <img  class="download__tools-picture" src="./image/download_options.png" alt="">
+                        <figcaption  class="download__tools-title" >How it works?</figcaption>
                     </figure>
-                    <div class="col-sm">
-                        <button type="button" class="download__button ">download free</button>
-                        <label for="radioBtn">
+
+
+                    <div class="col-sm d-flex  align-items-center flex-column p-0 ">
+                        <div class="  d-flex flex-column download__button-wrapper"> 
+                        <button class="download__button" type="button"  >download free</button>
+                        <label class="download__label" for="radioBtn">
                             <input name="radioBtn" type="radio">
                             I agree with EULA when downloading file
                             How to Uninstall software?
                         </label>
-
                     </div>
-                    <div class="col-sm">
-                        <img class="download__picture-windows" src="./image/download_windiws.png" alt="">
-                        <img class="download__picture-excel" src="./image/excel_logo.png" alt="">
+         
+                    </div>
+
+                    <div class="col-sm d-flex col-lg-3 download__picture-wrapper ">
+                        <img class="download__picture" src="./image/download_windiws.png" alt="">
+                        <img class="download__picture" src="./image/excel_logo.png" alt="">
                     </div>
                 </div>
             </div>
+
+          
         </section>
 
         <section class="excel-tool">
