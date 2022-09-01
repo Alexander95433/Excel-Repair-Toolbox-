@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font-Inter.css);
-/*бутстрап*/
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__button-link/header__button-link.css);
@@ -11,13 +11,34 @@
 @import url(../blocks/header/__button-title/header__button-title.css);
 @import url(../blocks/header/__line/header__line.css);
 
-@import url(../blocks/header/__button-link/header__button-link.css);
-@import url(../blocks/header/__button-link/header__button-link.css);
-@import url(../blocks/header/__button-link/header__button-link.css);
+@import url(../blocks/download/download.css);
+@import url(../blocks/download/__logo-wrapper/download__logo-wrapper.css);
+@import url(../blocks/download/__title-wrapper/download__title-wrapper.css);
+@import url(../blocks/download/__picture/download__picture.css);
+@import url(../blocks/download/__title/download__title\ .css);
+@import url(../blocks/download/__title/_span/download__title_span.css);
+@import url(../blocks/download/__subtitle/download__subtitle.css);
+@import url(../blocks/download/__subtitle/_span/download__subtitle_span.css);
+@import url(../blocks/download/__tools-block/download__tools-block.css);
+@import url(../blocks/download/__tools-picture/download__tools-picture.css);
+@import url(../blocks/download/__tools-title/download__tools-title.css);
+@import url(../blocks/download/__button-wrapper/download__button-wrapper.css);
+@import url(../blocks/download/__button/download__button.css);
+@import url(../blocks/download/__label/download__label.css);
+@import url(../blocks/download/__picture-wrapper/download__picture-wrapper.css);
+@import url(../blocks/download/);
+@import url(../blocks/download);
+@import url(../blocks/download);
+@import url(../blocks/download);
+@import url(../blocks/download);
+@import url(../blocks/download);
+@import url(../blocks/download);
+@import url(../blocks/download);
+@import url(../blocks/download);
+@import url(../blocks/download);
+@import url(../blocks/download);
 
-
-
-
+/*бутстрап*/
 @import url(../pages/bootstrap.min.css);
 
 :root {
@@ -27,157 +48,102 @@
     --color-text-white: #ffffff;
 }
 
-.page {
-    max-width: 1000px;
+.body {
+    max-width: 1440px;
     margin: auto;
-
 }
 
 
- 
+
+
+
+
+
 
 /*///////////////*/
-.download {
-    margin: 60px auto 0;
-    max-width: 872px;
-
+.excel-tool {
+    max-width: 100%;
+    margin-top: 75px;
+    background-color: #f3f4f8;
 }
-@media screen and (max-width:992px) {
-    .download__logo-wrapper {
-        text-align-last: center;
+
+@media screen and (max-width:767px) {
+    .excel-tool-wrapper {
+        flex-direction: column;
     }
 }
  
-@media screen and (max-width:992px) {
-    .download__title-wrapper {
+ 
+
+.excel-tool__list-wrapper {
+    max-width: 515px;
+}
+@media screen and (max-width:767px) {
+    .excel-tool__list-wrapper {
+        align-self: center;
+    }
+}
+.excel-tool__title {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: "Exo 2";
+    color: var(--color-green-craft);
+    line-height: 0.833;
+}
+
+@media screen and (max-width:767px) {
+    .excel-tool__title {
         text-align: center;
     }
 }
 
-.download__picture {
-    width: 128px;
-    height: 128px;
-    margin-right: 75px;
-    padding: 0;
-}
-
-.download__title {
+.excel-tool__subtitle {
+    margin-top: 43px;
     font-family: "Gotham Pro";
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 1.01;
-    color: var(--color-green-craft);
-    padding: 0;
-    margin: 43px 0 50px 0;
-}
-@media screen and (max-width:992px) {
-    .download__title {
-        margin: 43px 0 50px 0;
-    }
-}
-.download__title_span {
-    color: var(--color-black-craft);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.538;
+    color: #585462;
 }
 
-.download__subtitle {
+.excel-tool__list-title {
     font-family: "Gotham Pro";
     font-weight: 400;
-    font-size: 18px;
-
-    color: var(--color-black-craft);
-    line-height: 1.667;
-    margin: 0 0 18px 121px;
-
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.538;
+    color: #778799;
 }
-@media screen and (max-width:992px) {
-    .download__subtitle {
-        margin: 0;
+
+.excel-tool__video {
+    margin-top: 103px;
+    max-width: 344px;
+}
+@media screen and (max-width:767px) {
+    .excel-tool__video {
+        margin-top: 25px;
+        align-self: center;
     }
 }
-
-.download__subtitle_span {
-    color: var(--color-green-craft);
-}
-
-.download__tools-block {
-    margin: 50px auto 0;
-}
-
-.download__tools-picture {
-    width: 50px;
-    height: 43px;
-}
-
-.download__tools-title {
-    font-family: "Gotham Pro";
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(58, 87, 202);
-    line-height: 1.667;
-}
-
-.download__button-wrapper {
-    width: 207px;
-}
-
-.download__button {
+.excel-tool__video-button {
+    margin-top: 23px;
+    width: 150px;
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(104, 135, 223);
     border-radius: 5px;
-    background-color: rgb(104, 135, 223);
-    box-shadow: inset 0px 2px 0px 0px rgba(104, 135, 223, 0.75);
-    width: 207px;
-    height: 50px;
-    color: var(--color-text-white);
-
     font-family: "Gotham Pro";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.667;
-    text-transform: uppercase;
-
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.143;
+    color: rgb(104, 135, 223);
 }
-
-.download__label {
-
-    margin-top: 22px;
-    font-family: "PTSans";
-    font-weight: 400;
-    font-size: 10.77px;
-    color: var(--color-gray-craft);
-    line-height: 1.6;
-
-}
-
-.download__picture {
-    width: 75px;
-    height: 85px;
-    margin: 0;
-}
-
-.download__picture-wrapper {
-    justify-content: end;
-}
-
-@media screen and (max-width:992px) {
-    .download__picture-wrapper {
-        justify-content: center;
+@media screen and (max-width:767px) {
+    .excel-tool__video-button  {
+        
+        align-self: center;
     }
-
-}
-
-@media screen and (max-width:575px) {
-    .download__picture-wrapper {
-        margin-top: 20px;
-    }
-
-}
-
-.download__picture:first-child {
-
-    margin-right: 7px;
-}
-
-/*///////////////*/
-.excel-tool {
-    margin-top: 75px;
-    background-color: #f3f4f8;
 }

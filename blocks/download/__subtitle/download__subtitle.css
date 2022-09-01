@@ -1,0 +1,15 @@
+.download__subtitle {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 18px;
+
+    color: var(--color-black-craft);
+    line-height: 1.667;
+    margin: 0 0 18px 121px;
+
+}
+@media screen and (max-width:992px) {
+    .download__subtitle {
+        margin: 0;
+    }
+}

@@ -1,0 +1,8 @@
+.download__label {
+    margin-top: 22px;
+    font-family: "PTSans";
+    font-weight: 400;
+    font-size: 10.77px;
+    color: var(--color-gray-craft);
+    line-height: 1.6;
+}

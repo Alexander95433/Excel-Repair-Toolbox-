@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body class="page">
-
-
+<body class="body">
+<div class="bage"> 
+   
     <header class="header">
         <div class="container   ">
             <div class="row d-flex align-items-center   ">
@@ -94,28 +94,28 @@
 
         <section class="excel-tool">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <h2>Excel repair tool</h2>
-                        <p>Excel Repair Toolbox (Download) is effective solution to fix corrupt Excel 
+                <div class="row d-flex justify-content-between excel-tool-wrapper">
+                    <div class="col-sm  excel-tool__list-wrapper ">
+                        <h2 class="excel-tool__title" >Excel repair tool</h2>
+                        <p class="excel-tool__subtitle" >Excel Repair Toolbox (Download) is effective solution to fix corrupt Excel 
                             workbooks and worksheets. Software can recover corrupted Excel files and 
                             fix many errors:</p>
-                        <ul>
-                            <li>We found a problem with some content in FileName.xlsx (xls). Do you 
+                        <ul class="excel-tool__list">
+                            <li class="excel-tool__list-title" >We found a problem with some content in FileName.xlsx (xls). Do you 
                                 want us to try to recover as much as we can? If you trust the source of 
                                 this workbook, Click Yes</li>
-                            <li>Filename.xlsx cannot be accessed. The file may be read-only, you may 
+                            <li class="excel-tool__list-title" >Filename.xlsx cannot be accessed. The file may be read-only, you may 
                                 be trying to access</li>
-                            <li>A read-only location. Or, the server the document is stored on may not 
+                            <li class="excel-tool__list-title" >A read-only location. Or, the server the document is stored on may not 
                                 be responding</li>
-                            <li>Excel cannot complete this task with available resources</li>
-                            <li>This file is not in a recognizable format</li>
-                            <li>Excel found unreadable content in «filename.xslx».</li>
+                            <li class="excel-tool__list-title" >Excel cannot complete this task with available resources</li>
+                            <li class="excel-tool__list-title" >This file is not in a recognizable format</li>
+                            <li class="excel-tool__list-title" >Excel found unreadable content in «filename.xslx».</li>
                         </ul>
                     </div>
-                    <div class="col-sm ">
+                    <div class="col-sm  d-flex flex-column excel-tool__video ">
                         <img src="./image/download_video.png" alt="">
-                        <button>Download Free</button>
+                        <button class="excel-tool__video-button" >Download Free</button>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
     </main>
 
 
-
+</div>
     <script src="./pages/bootstrap.bundle.min.js"></script>
 </body>
 

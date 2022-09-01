@@ -1,0 +1,15 @@
+.download__picture-wrapper {
+    justify-content: end;
+}
+
+@media screen and (max-width:992px) {
+    .download__picture-wrapper {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .download__picture-wrapper {
+        margin-top: 20px;
+    }
+}

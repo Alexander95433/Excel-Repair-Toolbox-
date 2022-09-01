@@ -1,0 +1,8 @@
+.download__picture {
+    width: 75px;
+    height: 85px;
+    margin: 0;
+}
+.download__picture:first-child {
+    margin-right: 7px;
+}
