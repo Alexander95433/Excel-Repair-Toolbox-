@@ -4,8 +4,25 @@
 
 @import url(../pages/bootstrap.min.css);
 
+:root {
+    --color-green-craft: #6caf5c;
+    --color-gray-craft: #929aa2;
+    --color-black-craft: #333333;
+}
+
+.page {
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+/*///////////////*/
 .header {
     margin-top: 15px;
+}
+
+.header__nav {
+    will-change: transform;
 }
 
 .header__button-link {
@@ -14,7 +31,7 @@
     font-weight: bold;
     font-style: normal;
     line-height: 1.9;
-    color: #929aa2;
+    color: var(--color-gray-craft);
     text-decoration: none;
     cursor: pointer;
     margin: auto 1px;
@@ -30,14 +47,13 @@
 
 }
 
-
 .header__links {
     border: solid 1px rgb(255, 136, 136);
     border-radius: 3px;
-    width: 52px;
+    width: 46px;
     height: 20px;
     margin-right: 5px;
-
+    will-change: transform;
 }
 
 .header__links_lilac {
@@ -45,39 +61,111 @@
     border: none;
     contain: paint;
     padding-top: 0.6px;
+    will-change: transform
 }
-
 
 .header__button-picture-quantity {
     width: 29px;
     height: 20px;
-
 }
 
 .header__button-title {
     position: relative;
-    z-index: -2;
     margin: 0;
-    padding-left: 16px;
+    padding-top: 1px;
+    margin-left: 2px;
     font-size: 11px;
     font-family: "HelveticaNeue";
     font-weight: bold;
     font-style: normal;
     line-height: 1.9;
-    color: #929aa2;
+    color: var(--color-gray-craft);
     text-decoration: none;
+    will-change: transform
 }
 
-.header__button-picture-quantity {
-     position: relative;
-    top: 0.1px;
-    right: 25px; 
-    width: 29px;
+.header__button-title::before {
+    content: "";
+    position: absolute;
+    right: -2.8px;
+    z-index: -2;
+    background-image: url(../image/border_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 27px;
     height: 20px;
-    z-index: -1;
 }
 
-.jkk{
-    width: 41px;
-    height: 20px;
+.header__links:nth-child(4) {
+    margin-left: 20px;
+}
+
+.header__line {
+    color: #dadce6;
+    border-top: solid 1px;
+    margin-top: 16px;
+}
+
+/*///////////////*/
+.download {
+    margin: 60px auto 0;
+    max-width: 872px;
+
+}
+
+.download__picture {
+    width: 128px;
+    height: 128px;
+    margin-right: 75px;
+    padding: 0;
+}
+
+.download__title {
+    font-family: "Gotham Pro";
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1.01;
+    color: var(--color-green-craft);
+    padding: 0;
+    margin: 43px 0 50px 0;
+}
+
+.download__title_span {
+    color: var(--color-black-craft);
+}
+
+.download__subtitle {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 18px;
+
+    color: var(--color-black-craft);
+    line-height: 1.667;
+    margin: 0 0 18px 121px;
+    
+}
+
+.download__subtitle_span {
+    color: var(--color-green-craft);
+}
+
+
+.download__options-block {
+    margin: 50px auto 0;
+}
+
+.download__button {
+    border-radius: 5px;
+    background-color: rgb(104, 135, 223);
+    box-shadow: inset 0px 2px 0px 0px rgba(104, 135, 223, 0.75);
+    width: 207px;
+    height: 50px;
+    color: white;
+      
+}
+
+.excel-tool{
+    margin-top: 75px;
+    background-color: #f3f4f8;
 }

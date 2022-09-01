@@ -13,26 +13,21 @@
 
 
     <header class="header">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-sm">
+        <div class="container   ">
+            <div class="row d-flex align-items-center   ">
+                <div class="col-sm  col-lg-9 p-0">
                     <img class="img-fluid" src="./image/logo_Header.jpg.png" alt="">
                 </div>
-                <div class="col-sm">
-                </div>
-                <nav class=" d-flex  align-items-center col-sm">
+                <nav class=" d-flex  align-items-center col-sm  col-md-4   col-lg-3   p-0  header__nav ">
                     <li class=" d-flex justify-content-center header__links">
-                        <a class="header__button-link d-flex align-items-center" href="#">
+                        <a class="header__button-link d-flex align-items-center " href="#">
                             <img class="header__button-picture" src="./image/g-logo.png" alt="">Like</a>
                     </li>
                     <li class="d-flex justify-content-center  header__links ">
                         <a class="header__button-link" href="#">Share</a>
                     </li>
-                    <li class="d-flex  justify-content-center  jkk">
-                        <p class="d-flex header__button-title align-items-center">
-                            60k
-                            <img class="header__button-picture-quantity" src="./image/border_header.jpg" alt="">
-                        </p>
+                    <li class="d-flex  justify-content-center ">
+                        <p class="d-flex header__button-title align-items-center">60k</p>
                     </li>
                     <li class="d-flex justify-content-center header__links header__links_lilac ">
                         <a class="header__button-link text-white d-flex align-items-center " href="#">
@@ -41,44 +36,84 @@
                     <li class=" d-flex justify-content-center header__links  header__links_lilac">
                         <a class="header__button-link text-white  " href="#">Share</a>
                     </li>
-                    <li class="d-flex  justify-content-center  jkk">
-                        <p class="d-flex header__button-title align-items-center">
-                            60k
-                            <img class="header__button-picture-quantity" src="./image/border_header.jpg" alt="">
-                        </p>
+                    <li class="d-flex  justify-content-center">
+                        <p class="d-flex header__button-title align-items-center">60k</p>
                     </li>
                 </nav>
+                <div class="header__line"></div>
             </div>
         </div>
     </header>
 
     <main>
-        <section>
+        <section class="download">
             <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                       <img src="./image/excel_logo.png" alt="">
+                <div class="row d-flex ">
+                    <div class="col-4 download__picture">
+                        <img src="./image/excel_logo.png" alt="">
                     </div>
-                    <div class="col-sm">
-                        <h1>Excel Repair<span>Toolbox</span></h1>
-                        <p>Microsoft Excel file repair tool for corrupt Excel files</p>
-                        <p>(*.xls, *.xlsx, *.xlt, *xltx, *.xlm, *.xlmx)</p>
+                    <div class="col-sm p-0">
+                        <h1 class="download__title ">Excel Repair <span class="download__title_span ">Toolbox</span>
+                        </h1>
+                        <p class="download__subtitle">Microsoft Excel file repair tool for corrupt Excel files
+                            <br> <span class="download__subtitle_span">(*.xlsx, *.xlt, *xltx, *.xlm, *.xlmx)</span>
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container download__options-block">
                 <div class="row">
-                    <div class="col-4">
-                       <img src="./image/excel_logo.png" alt="">
+                    <figure class="col-sm">
+                        <img src="./image/download_options.png" alt="">
+                        <figcaption>How it works?</figcaption>
+                    </figure>
+                    <div class="col-sm">
+                        <button type="button" class="download__button ">download free</button>
+                        <label for="radioBtn">
+                            <input name="radioBtn" type="radio">
+                            I agree with EULA when downloading file
+                            How to Uninstall software?
+                        </label>
+
                     </div>
                     <div class="col-sm">
-                        <h1>Excel Repair<span>Toolbox</span></h1>
-                        <p>Microsoft Excel file repair tool for corrupt Excel files</p>
-                        <p>(*.xls, *.xlsx, *.xlt, *xltx, *.xlm, *.xlmx)</p>
+                        <img class="download__picture-windows" src="./image/download_windiws.png" alt="">
+                        <img class="download__picture-excel" src="./image/excel_logo.png" alt="">
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="excel-tool">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <h2>Excel repair tool</h2>
+                        <p>Excel Repair Toolbox (Download) is effective solution to fix corrupt Excel 
+                            workbooks and worksheets. Software can recover corrupted Excel files and 
+                            fix many errors:</p>
+                        <ul>
+                            <li>We found a problem with some content in FileName.xlsx (xls). Do you 
+                                want us to try to recover as much as we can? If you trust the source of 
+                                this workbook, Click Yes</li>
+                            <li>Filename.xlsx cannot be accessed. The file may be read-only, you may 
+                                be trying to access</li>
+                            <li>A read-only location. Or, the server the document is stored on may not 
+                                be responding</li>
+                            <li>Excel cannot complete this task with available resources</li>
+                            <li>This file is not in a recognizable format</li>
+                            <li>Excel found unreadable content in «filename.xslx».</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm ">
+                        <img src="./image/download_video.png" alt="">
+                        <button>Download Free</button>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
     </main>
 
