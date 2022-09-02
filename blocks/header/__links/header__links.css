@@ -29,6 +29,7 @@
 
 .header__links:nth-child(5) {
     background-color: #415b9f;
+    padding-top: 1px;
     padding-left: 4.5px;
     border: none;
 }
