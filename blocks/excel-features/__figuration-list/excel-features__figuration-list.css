@@ -4,3 +4,14 @@
         margin: 30px 5px 0;
     }
 }
+@media screen and (max-width: 444px) {
+    .excel-features__figuration-list {
+        max-width: 170px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .excel-features__figuration-list {
+        max-width: 138px;
+    }
+}
