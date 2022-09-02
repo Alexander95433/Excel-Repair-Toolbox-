@@ -3,6 +3,10 @@
 /*бутстрап*/
 @import url(../pages/bootstrap.min.css);
 
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/root/root.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__button-link/header__button-link.css);
@@ -51,48 +55,7 @@
 @import url(../blocks/excel-features/__list/excel-features__list.css);
 @import url(../blocks/excel-features/__text-end-wrapper/excel-features__text-end-wrapper.css);
 
-
-:root {
-    --color-green-craft: #6caf5c;
-    --color-gray-craft: #778799;
-    --color-black-craft: #333333;
-    --color-text-white: #ffffff;
-    --color-blue-craft: #6887df;
-}
-
-.body {
-    max-width: 1440px;
-    background-color: white;
-
-    margin: auto;
-}
-
-.footer {}
-
-.footer__content-wrapper {
-    text-align: center;
-}
-
-.footer__subtitle {
-    margin: 28px 0 0;
-    font-family: "Gotham Pro";
-    font-size: 12px;
-    font-weight: 400;
-    color: var(--color-gray-craft);
-    line-height: 1;
-
-}
-.footer__subtitle:first-child {
-    margin-top: 100px;
-}
-
-.footer__line {
-    margin: 30px auto 0;
-    width: 50px;
-    border-top: solid 2px var(--color-black-craft);
-}
-
-.footer__picture {
-    width: 42px;
-    margin: 30px 0 42px;
-}
+@import url(../blocks/footer/__content-wrapper/footer__content-wrapper.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__line/footer__line.css);
+@import url(../blocks/footer/__picture/footer__picture.css);

@@ -1,0 +1,5 @@
+.footer__line {
+    margin: 30px auto 0;
+    width: 50px;
+    border-top: solid 2px var(--color-black-craft);
+}

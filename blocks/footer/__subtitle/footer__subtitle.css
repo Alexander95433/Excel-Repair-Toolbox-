@@ -1,0 +1,19 @@
+.footer__subtitle {
+    margin: 28px 0 0;
+    font-family: "Gotham Pro";
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-gray-craft);
+    line-height: 1;
+
+}
+.footer__subtitle:first-child {
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width:576px) {
+    .footer__subtitle:first-child {
+        margin-top: 70px;
+    }
+}
