@@ -81,7 +81,9 @@
                             <div class="  d-flex flex-column download__button-wrapper">
                                 <button class="download__button" type="button">download free</button>
                                 <label class="download__label" for="radioBtn">
-                                    <input class="download__button-input" name="radioBtn" type="radio">
+                                    <input class="download__button-input" name="radioBtn" type="radio"
+                                        onMouseDown="this.isChecked=this.checked;"
+                                        onClick="this.checked=!this.isChecked;">
                                     I agree with EULA when downloading file
                                     How to Uninstall software?
                                 </label>
@@ -167,8 +169,10 @@
                         </div>
 
                         <figure class="col-sm col-sm excel-features__picture-window-wrapper">
-                            <img class="excel-features__picture-window" src="./image/features_window1.png" alt="picture-window">
-                            <img class="excel-features__picture-window" src="./image/features_window2.png" alt="picture-window">
+                            <img class="excel-features__picture-window" src="./image/features_window1.png"
+                                alt="picture-window">
+                            <img class="excel-features__picture-window" src="./image/features_window2.png"
+                                alt="picture-window">
                         </figure>
                         <div class="col-sm excel-features__list">
                             <p class="excel-features__subtitle mt-0">Download Excel file repair software as soon as one
@@ -216,8 +220,8 @@
                         <a href="#"> <img class="footer__picture" src="./image/footer1.png" alt="logo"></a>
                         <a href="#"> <img class="footer__picture" src="./image/footer2.png" alt="logo"></a>
                         <a href="#"> <img class="footer__picture" src="./image/footer3.png" alt="logo"></a>
-                         
-                         
+
+
                     </div>
                 </div>
             </div>
