@@ -1,0 +1,13 @@
+.excel-features__picture-window {
+    will-change: transform;
+}
+
+@media screen and (max-width: 517px) {
+    .excel-features__picture-window:last-child {
+        margin: 30px 0 0;
+    }
+}
+
+.excel-features__picture-window:first-child {
+    margin-top: 0.5px;
+}

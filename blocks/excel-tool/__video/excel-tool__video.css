@@ -1,0 +1,12 @@
+.excel-tool__video {
+    margin-top: 103px;
+    max-width: 344px;
+}
+
+@media screen and (max-width:767px) {
+    .excel-tool__video {
+        margin-top: 25px;
+        max-width: 90%;
+        align-self: center;
+    }
+}

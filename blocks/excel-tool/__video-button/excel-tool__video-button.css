@@ -1,0 +1,21 @@
+.excel-tool__video-button {
+    margin-top: 23px;
+    width: 150px;
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--color-blue-craft);
+    border-radius: 5px;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.143;
+    color: var(--color-blue-craft);
+}
+
+@media screen and (max-width:767px) {
+    .excel-tool__video-button {
+        align-self: center;
+        margin-bottom: 30px;
+    }
+}

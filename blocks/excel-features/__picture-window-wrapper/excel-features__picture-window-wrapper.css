@@ -1,0 +1,10 @@
+.excel-features__picture-window-wrapper {
+    margin: 90px 0 0;
+    will-change: transform;
+}
+
+@media screen and (max-width: 768px) {
+    .excel-features__picture-window-wrapper {
+        margin-top: 54px;
+    }
+}

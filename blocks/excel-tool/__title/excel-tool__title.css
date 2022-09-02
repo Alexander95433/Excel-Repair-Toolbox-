@@ -1,0 +1,14 @@
+.excel-tool__title {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: "Exo 2";
+    color: var(--color-green-craft);
+    line-height: 0.833;
+}
+
+@media screen and (max-width:767px) {
+    .excel-tool__title {
+        text-align: center;
+    }
+}

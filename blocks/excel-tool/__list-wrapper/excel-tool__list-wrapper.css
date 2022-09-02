@@ -1,0 +1,8 @@
+.excel-tool__list-wrapper {
+    max-width: 515px;
+}
+@media screen and (max-width:767px) {
+    .excel-tool__list-wrapper {
+        align-self: center;
+    }
+}

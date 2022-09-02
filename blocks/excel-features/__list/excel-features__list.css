@@ -1,0 +1,10 @@
+.excel-features__list {
+    max-width: 742px;
+    margin: 75px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+    .excel-features__list {
+        margin-top: 54px;
+    }
+}

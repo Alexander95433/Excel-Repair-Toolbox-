@@ -1,0 +1,8 @@
+.excel-tool__list-title {
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.538;
+    color: var(--color-gray-craft);
+}

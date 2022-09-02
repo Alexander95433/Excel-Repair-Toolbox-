@@ -1,0 +1,8 @@
+.excel-features__subtitle_span {
+    font-family: "Gotham Pro";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    color: var(--color-black-craft);
+    line-height: 1.385;
+}

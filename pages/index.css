@@ -1,12 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font-Inter.css);
+/*бутстрап*/
+@import url(../pages/bootstrap.min.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__button-link/header__button-link.css);
 @import url(../blocks/header/__button-picture/header__button-picture.css);
-@import url(../blocks/header/__button-link/_lilac/header__links_lilac.css);
 @import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__button-link/_lilac/header__links_lilac.css);
 @import url(../blocks/header/__button-picture-quantity/header__button-picture-quantity.css);
 @import url(../blocks/header/__button-title/header__button-title.css);
 @import url(../blocks/header/__line/header__line.css);
@@ -26,124 +28,38 @@
 @import url(../blocks/download/__button/download__button.css);
 @import url(../blocks/download/__label/download__label.css);
 @import url(../blocks/download/__picture-wrapper/download__picture-wrapper.css);
-@import url(../blocks/download/);
-@import url(../blocks/download);
-@import url(../blocks/download);
-@import url(../blocks/download);
-@import url(../blocks/download);
-@import url(../blocks/download);
-@import url(../blocks/download);
-@import url(../blocks/download);
-@import url(../blocks/download);
-@import url(../blocks/download);
-@import url(../blocks/download);
 
-/*бутстрап*/
-@import url(../pages/bootstrap.min.css);
+@import url(../blocks/excel-tool/excel-tool.css);
+@import url(../blocks/excel-tool/__wrapper/excel-tool__wrapper.css);
+@import url(../blocks/excel-tool/__list-wrapper/excel-tool__list-wrapper.css);
+@import url(../blocks/excel-tool/__title/excel-tool__title.css);
+@import url(../blocks/excel-tool/__subtitle/excel-tool__subtitle.css);
+@import url(../blocks/excel-tool/__list-title/excel-tool__list-title.css);
+@import url(../blocks/excel-tool/__video/excel-tool__video.css);
+@import url(../blocks/excel-tool/__video-button/excel-tool__video-button.css);
+
+@import url(../blocks/excel-features/excel-features.css);
+@import url(../blocks/excel-features/__title/excel-features__title.css);
+@import url(../blocks/excel-features/__picture-wrapper/excel-features__picture-wrapper.css);
+@import url(../blocks/excel-features/__figuration-list/excel-features__figuration-list.css);
+@import url(../blocks/excel-features/__picture/excel-features__picture.css);
+@import url(../blocks/excel-features/__subtitle/excel-features__subtitle.css);
+@import url(../blocks/excel-features/__subtitle/_span/excel-features__subtitle_span.css);
+@import url(../blocks/excel-features/__picture-window-wrapper/excel-features__picture-window-wrapper.css);
+@import url(../blocks/excel-features/__picture-window/excel-features__picture-window.css);
+@import url(../blocks/excel-features/__list/excel-features__list.css);
+@import url(../blocks/excel-features/__text-end-wrapper/excel-features__text-end-wrapper.css);
+
 
 :root {
     --color-green-craft: #6caf5c;
     --color-gray-craft: #929aa2;
     --color-black-craft: #333333;
     --color-text-white: #ffffff;
+    --color-blue-craft: #6887df;
 }
 
 .body {
     max-width: 1440px;
     margin: auto;
-}
-
-
-
-
-
-
-
-
-/*///////////////*/
-.excel-tool {
-    max-width: 100%;
-    margin-top: 75px;
-    background-color: #f3f4f8;
-}
-
-@media screen and (max-width:767px) {
-    .excel-tool-wrapper {
-        flex-direction: column;
-    }
-}
- 
- 
-
-.excel-tool__list-wrapper {
-    max-width: 515px;
-}
-@media screen and (max-width:767px) {
-    .excel-tool__list-wrapper {
-        align-self: center;
-    }
-}
-.excel-tool__title {
-    margin-top: 50px;
-    font-size: 36px;
-    font-weight: 300;
-    font-family: "Exo 2";
-    color: var(--color-green-craft);
-    line-height: 0.833;
-}
-
-@media screen and (max-width:767px) {
-    .excel-tool__title {
-        text-align: center;
-    }
-}
-
-.excel-tool__subtitle {
-    margin-top: 43px;
-    font-family: "Gotham Pro";
-    font-weight: 500;
-    font-style: normal;
-    font-size: 13px;
-    line-height: 1.538;
-    color: #585462;
-}
-
-.excel-tool__list-title {
-    font-family: "Gotham Pro";
-    font-weight: 400;
-    font-style: normal;
-    font-size: 13px;
-    line-height: 1.538;
-    color: #778799;
-}
-
-.excel-tool__video {
-    margin-top: 103px;
-    max-width: 344px;
-}
-@media screen and (max-width:767px) {
-    .excel-tool__video {
-        margin-top: 25px;
-        align-self: center;
-    }
-}
-.excel-tool__video-button {
-    margin-top: 23px;
-    width: 150px;
-    margin-left: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(104, 135, 223);
-    border-radius: 5px;
-    font-family: "Gotham Pro";
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 2.143;
-    color: rgb(104, 135, 223);
-}
-@media screen and (max-width:767px) {
-    .excel-tool__video-button  {
-        
-        align-self: center;
-    }
 }
