@@ -10,7 +10,11 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__button-link/header__button-link.css);
+
 @import url(../blocks/header/__button-picture/header__button-picture.css);
+
+@import url(../blocks/header/__button-picture/_lilac/header__button-picture_lilac.css);
+
 @import url(../blocks/header/__button-link/_share/header__button-link_share.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__button-picture-quantity/header__button-picture-quantity.css);
