@@ -3,26 +3,6 @@
     margin: 0;
     top: 2px;
     padding-top: 1px;
-    margin-left: 5px;
-    font-size: 11px;
-    font-family: "HelveticaNeue";
-    font-weight: bold;
-    font-style: normal;
-    line-height: 1.9;
-    color: var(--color-gray-craft);
     text-decoration: none;
     will-change: transform
-}
-
-.header__button-title::before {
-    content: "";
-    position: absolute;
-    right: -3.8px;
-    z-index: -2;
-    background-image: url(../../../image/border_header.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 29px;
-    height: 20px;
 }
