@@ -11,4 +11,11 @@
     font-size: 18px;
     line-height: 1.667;
     text-transform: uppercase;
+    transition: .1s linear;
+     
+}
+
+.download__button:active { 
+    transition: .1s linear;
+    transform: scale(0.98);
 }

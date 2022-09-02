@@ -1,8 +1,4 @@
 .header__links {
-    border: solid 1px rgb(255, 136, 136);
-    border-radius: 3px;
-    width: 46px;
-    height: 20px;
     margin-right: 5px;
     will-change: transform;
 }
